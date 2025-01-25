@@ -27,24 +27,24 @@ Evaluation and visualization of model performance
 
 ## How It Works
 
-###**Data Preparation**:
+### **Data Preparation**:
 Images are preprocessed and split into training and testing sets.
 Labels are one-hot encoded for multi-class classification.
 
-###**Model Architecture**:
+### **Model Architecture**:
 A convolutional neural network is designed using Keras, with layers such as GlobalAveragePooling2D, BatchNormalization, and Dense.
 Optimizers and callbacks like Adam and ReduceLROnPlateau are employed to enhance performance.
 
-###**Training**:
+### **Training**:
 The model is trained using GPU acceleration for faster computation.
 Early stopping prevents overfitting.
 
-###**Evaluation**:
+### **Evaluation**:
 The model's accuracy and loss are evaluated on the test dataset.
 Visualization tools highlight breed-wise predictions.
 
 ## Results:
-###**Accuracy**: The final model achieved satisfactory accuracy in classifying dog breeds.
+### **Accuracy**: The final model achieved satisfactory accuracy in classifying dog breeds.
 Insights: Visualization reveals which breeds are most and least accurately predicted.
 
 ### Future Scope:
